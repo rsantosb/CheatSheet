@@ -6,7 +6,7 @@ Repositorio con comandos de ayuda
 
 ---
 ## Git:
-- 
+* [GitPage](https://github.com/rsantosb/CheatSheet/blob/master/Git.md)
 
 ## Jupyter:
-- 
+* [JupyterPage](https://github.com/rsantosb/CheatSheet/blob/master/Jupyter.md)
