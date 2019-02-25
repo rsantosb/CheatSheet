@@ -21,3 +21,13 @@ Repositorio con comandos de ayuda: R
 
 - head(df, n = ...) : Primeras n filas 
 - tail(df, n = ...) : Últimas n filas
+
+## Selección filas y columnas:
+- df[1:10, ] : 10 primeras filas
+- df[ , 3:4] : Columnas 3 y 4
+- df[ , 'NameCol' ] = df$NameCol : Seleccionar columna 'NameCol'
+- df[ condicionesLógicas ,] : Permite seleccionar filas mediante condiciones
+
+   Ejemplo: mtcars[mtcars$cyl<6 & mtcars$gear==4,]
+
+## Creación y eliminación tablas:
