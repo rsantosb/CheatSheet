@@ -31,3 +31,14 @@ Repositorio con comandos de ayuda: R
    Ejemplo: mtcars[mtcars$cyl<6 & mtcars$gear==4,]
 
 ## Creación y eliminación tablas:
+
+   Ejercicio: Crea una copia del conjunto de datos airquality. Comprueba con ls que está efectivamente creado y luego añádele una
+   columna nueva llamada temperatura que contenga una copia de Temp. Comprueba que efectivamente está allí y luego, elimínala.
+   Finalmente, borra la tabla.
+   
+   copyAir <- airquality                  # Crear tabla
+   ls()                                   # Lista objetos en memoria 
+   copyAir$Temperatura <- copyAir$Temp    # Crear una nueva columna, copiando Temp
+   head(copyAir)                          
+   copyAir$Temperatura <- NULL            # Eliminar columna
+   rm(copyAir)                            # Elimimar la tabla
