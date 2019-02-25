@@ -36,9 +36,23 @@ Repositorio con comandos de ayuda: R
    columna nueva llamada temperatura que contenga una copia de Temp. Comprueba que efectivamente está allí y luego, elimínala.
    Finalmente, borra la tabla.
    
-   copyAir <- airquality                  # Crear tabla
-   ls()                                   # Lista objetos en memoria 
-   copyAir$Temperatura <- copyAir$Temp    # Crear una nueva columna, copiando Temp
-   head(copyAir)                          
-   copyAir$Temperatura <- NULL            # Eliminar columna
-   rm(copyAir)                            # Elimimar la tabla
+1.   Crear tabla
+      
+      copyAir <- airquality
+2.   Lista objetos en memoria
+
+      ls()                                   
+3.   Crear una nueva columna, copiando Temp
+
+      copyAir$Temperatura <- copyAir$Temp
+   
+4.   Mostrar info de la tabla
+
+      head(copyAir)                          
+
+5.   Eliminar columna
+
+      copyAir$Temperatura <- NULL           
+6.   Elimimar la tabla
+
+      rm(copyAir)                           
