@@ -10,3 +10,6 @@ Repositorio con comandos de ayuda
 
 ## Jupyter:
 * [JupyterPage](https://github.com/rsantosb/CheatSheet/blob/master/Jupyter.md)
+
+## R:
+* [RPage](https://github.com/rsantosb/CheatSheet/blob/master/R.md)
