@@ -56,3 +56,14 @@ Repositorio con comandos de ayuda: R
 6.   Elimimar la tabla
 
       rm(copyAir)                           
+
+## Directorios:
+- getwd()       : Ruta del directorio actual
+- setwd("ruta") : Cambiar directorio actual a ruta
+- dir()         : Lista el contenido del directorio 
+- read.table( url, header = , sep = "") : Lee un fichero y crea dataframe
+
+   También existe read.csv() o download.file()
+ 
+---
+# Gráficos:
